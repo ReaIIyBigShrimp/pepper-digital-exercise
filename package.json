@@ -1,0 +1,21 @@
+{
+  "name": "pepper-digital-exercise",
+  "version": "1.0.0",
+  "description": "Exercise for implementing web design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darryl Dolan-Rathmell",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "grunt": "~0.4.5",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-postcss": "latest",
+    "load-grunt-config": "^0.19.2"
+  }
+}

@@ -3,3 +3,37 @@
 @import "partials/theme.scss";
 
 $primary-colour: #123456;
+
+h1, h2 {font-family: $heading-font;}
+
+p {font-family: $paragraph-font;}
+
+.container {
+    max-width: 100%;
+    max-width: 1200px;
+    align-self: center;
+    margin: auto;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin: auto;
+    .hero-text {
+        width: 50%;
+    }
+    .hero-image {
+        width: 50%;
+        img {
+            margin: auto;
+            display: flex;
+        }
+    }
+}
+
+.text-section {
+    p {
+        padding: 50px 200px;
+    }
+}

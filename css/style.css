@@ -1,3 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+header {
+  display: flex;
+  justify-content: center; }
+  header .logo {
+    max-width: 50px; }
 
+h1, h2 {
+  font-family: "Roboto", sans-serif; }
+
+p {
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  max-width: 100%;
+  max-width: 1200px;
+  align-self: center;
+  margin: auto; }
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  margin: auto; }
+  .hero-section .hero-text {
+    width: 50%; }
+  .hero-section .hero-image {
+    width: 50%; }
+    .hero-section .hero-image img {
+      margin: auto;
+      display: flex; }
+
+.text-section p {
+  padding: 50px 200px; }
 
 /*# sourceMappingURL=style.css.map */

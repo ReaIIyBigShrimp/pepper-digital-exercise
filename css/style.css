@@ -33,4 +33,17 @@ p {
 .text-section p {
   padding: 50px 200px; }
 
+.panel-section {
+  position: relative; }
+  .panel-section img {
+    width: -webkit-fill-available; }
+  .panel-section .overlay-content {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    max-width: 400px;
+    padding: 50px;
+    background-color: #fff;
+    transform: translate(-50%, -50%); }
+
 /*# sourceMappingURL=style.css.map */

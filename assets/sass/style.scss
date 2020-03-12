@@ -37,3 +37,18 @@ p {font-family: $paragraph-font;}
         padding: 50px 200px;
     }
 }
+
+.panel-section {
+    position: relative;
+    img {width: -webkit-fill-available;}
+    
+    .overlay-content {
+        position: absolute;
+        left: 30%;
+        top: 50%;
+        max-width: 400px;
+        padding: 50px;
+        background-color: #fff;
+        transform: translate(-50%, -50%);
+    }
+}
